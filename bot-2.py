@@ -5,6 +5,9 @@ import random
 import asyncio
 import requests
 import os
+import youtube_dl
+import Pymoe
+import pip
 
 client = commands.Bot(command_prefix = '.')
 
