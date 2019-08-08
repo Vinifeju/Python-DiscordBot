@@ -2,11 +2,7 @@ import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import random
-import asyncio
-import requests
 import os
-
-TOKEN = 'NjA4MTg0ODczNDkyMDIxMjg4.XUklBw.3kOz9OlwsOmHJQRCt4RV3DYH4BU'
 
 client = commands.Bot(command_prefix = '.')
 
@@ -91,4 +87,4 @@ async def on_member_join(member):
 
 
 
-client.run(TOKEN)
+client.run(str(os.environ.get('TOKEN')))
