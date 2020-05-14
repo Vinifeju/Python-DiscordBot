@@ -9,7 +9,7 @@ CONFIG = load_configs.load()
 
 # --- Инциализация клиента ---
 
-client = commands.Bot(command_prefix = CONFIG["prefix"], case_insensitive= 1)
+client = commands.Bot(command_prefix = CONFIG["prefix"], case_insensitive = 1)
 extensions = ['handler']
 
 @client.event
