@@ -30,4 +30,5 @@ if __name__ == '__main__':
             print(f'{extension} --- {error}')
 
     client.run(CONFIG['token'])
+    #client.run(str(os.environ.get('TOKEN')))
 
