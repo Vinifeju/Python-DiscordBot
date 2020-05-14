@@ -19,6 +19,9 @@ async def on_ready():
 # --- Запуск ---
 
 if __name__ == '__main__':
+    
+    # --- подключение расширений ---    
+
     for extension in extensions:
         try:
             client.load_extension(extension)
