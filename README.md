@@ -1,1 +1,2 @@
-# Pythonic2
+# Python discord bot
+С парочкой команд
